@@ -1,4 +1,42 @@
 # heart-attack
+À propos de l'ensemble de données
+Cette base de données contient 76 attributs, mais toutes les expériences publiées se réfèrent à l'utilisation d'un sous-ensemble de 14 d'entre eux. En particulier, la base de données de Cleveland est la seule qui a été utilisée par les chercheurs en ML à
+ce jour. Le champ « cible » fait référence à la présence d'une maladie cardiaque chez le patient. Il s'agit d'un nombre entier 0 = pas/moins de risque de crise cardiaque et 1 = plus de risque de crise cardiaque
+
+Attribut Information
+1) âge
+2) sexe
+3) type de douleur thoracique (4 valeurs)
+4) tension artérielle au repos
+5) cholestérol sérique en mg/dl
+6) glycémie à jeun > 120 mg/dl
+7) résultats électrocardiographiques au repos (valeurs 0,1 ,2)
+8) fréquence cardiaque maximale atteinte
+9) angor
+induit par l'exercice 10) oldpeak = dépression du segment ST induite par l'exercice par rapport au repos
+11) la pente du segment ST d'exercice maximal
+12) nombre de vaisseaux principaux (0-3) colorés par fluoroscopie
+13) thal : 0 = normal ; 1 = défaut corrigé ; 2 = défaut réversible
+14) cible : 0= moins de chance de crise cardiaque 1= plus de chance de crise cardiaque
+
+L'ensemble de données est pris à des fins d'apprentissage. Source des données : https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 La source:
 
 Créateurs :
