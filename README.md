@@ -1,6 +1,6 @@
 # heart-attack
-À propos de l'ensemble de données
-Cet ensemble de données sur « Soins de santé : Ensemble de données sur la possibilité d'une crise cardiaque » Publié à l'origine à Kaggle : Heart Disease UCI. L'ensemble de données est pris à des fins d'apprentissage. 
+À propos de l'ensemble de données 
+Cet ensemble de données donne les informations relatives aux maladies cardiaques. « Soins de santé : Ensemble de données sur la possibilité d'une crise cardiaque » Publié à l'origine à Kaggle : Heart Disease UCI. L'ensemble de données est pris à des fins d'apprentissage. 
 Cette base de données contient 76 attributs, mais toutes les expériences publiées se réfèrent à l'utilisation d'un sous-ensemble de 14 d'entre eux. En particulier, la base de données de Cleveland est la seule qui a été utilisée par les chercheurs en ML à
 ce jour.
 Le champ « objectif » fait référence à la présence d'une maladie cardiaque chez le patient. Il s'agit d'un entier dont la valeur va de 0 (aucune présence) à 4. 
@@ -215,6 +215,12 @@ Quelles sont la plupart des raisons pour la possibilité d'une crise cardiaque?
 Quels sont les groupes d'âge les plus nombreux pour la crise cardiaque?
 
 Quelles sont les principales causes des crises cardiaques?
+
+# Exemple d'application
+# prévenir les crises cardiaques
+
+
+
 
 
 # Source des données : 
