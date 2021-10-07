@@ -25,7 +25,7 @@ induit par l'exercice 10) oldpeak = dépression du segment ST induite par l'exer
 
 
 
-# Documentation complète de l'attribut :
+# Documentation complète des variables :
 
 id : numéro d'identification du patient
 
@@ -41,34 +41,54 @@ painexer (1 = provoqué par l'effort ; 0 = autrement)
 
 relrest (1 = soulagé après le repos ; 0 = sinon)
 
-8 pncaden (somme de 5, 6 et 7)
-9 cp : type de douleur thoracique
+pncaden (somme de 5, 6 et 7)
+
+cp : type de douleur thoracique
 -- Valeur 1 : angine typique
 -- Valeur 2 : angine atypique
 -- Valeur 3 : douleur non angineuse
 -- Valeur 4 : asymptomatique
-10 trestbps : tension artérielle au repos (en mm Hg à l'admission à l'hôpital)
-11 htn
-12 chol : cholestérol sérique en mg/dl
-13 fumée : je crois que c'est 1 = oui ; 0 = non (est ou n'est pas fumeur)
-14 cigs (cigarettes par jour)
-15 ans (nombre d'années en tant que fumeur)
-16 fbs : (glycémie à jeun > 120 mg/dl) (1 = vrai ; 0 = faux)
-17 dm (1 = antécédent de diabète ; 0 = pas d'antécédents)
-18 famhist : antécédents familiaux de maladie coronarienne (1 = oui ; 0 = non)
-19 restecg : résultats électrocardiographiques au repos
+
+trestbps : tension artérielle au repos (en mm Hg à l'admission à l'hôpital)
+
+htn
+
+chol : cholestérol sérique en mg/dl
+
+fumée : je crois que c'est 1 = oui ; 0 = non (est ou n'est pas fumeur)
+
+cigs (cigarettes par jour)
+
+ans (nombre d'années en tant que fumeur)
+
+fbs : (glycémie à jeun > 120 mg/dl) (1 = vrai ; 0 = faux)
+
+dm (1 = antécédent de diabète ; 0 = pas d'antécédents)
+
+famhist : antécédents familiaux de maladie coronarienne (1 = oui ; 0 = non)
+
+restecg : résultats électrocardiographiques au repos
 -- Valeur 0 : normal
 -- Valeur 1 : présentant une anomalie de l'onde ST-T (inversions de l'onde T et /ou Élévation ou dépression du segment ST > 0,05 mV)
 -- Valeur 2 : montrant une hypertrophie ventriculaire gauche probable ou certaine selon les critères d'Estes
-20 ekgmo (mois de lecture ECG d'effort)
-21 ekgday (jour de lecture ECG d'effort)
-22 ekgyr (année de lecture de l'ECG d'effort)
-23 dig (digital utilisé sur l'ECG d'exercice furing : 1 = oui ; 0 = non)
-24 prop (Bêta-bloquant utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
-25 nitr (nitrates utilisés pendant ECG d'effort : 1 = oui ; 0 = non)
-26 pro (inhibiteur calcique utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
-27 diurétique (diurétique utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
-28 proto : protocole d'exercice
+
+ekgmo (mois de lecture ECG d'effort)
+
+ekgday (jour de lecture ECG d'effort)
+
+ekgyr (année de lecture de l'ECG d'effort)
+
+dig (digital utilisé sur l'ECG d'exercice furing : 1 = oui ; 0 = non)
+
+prop (Bêta-bloquant utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
+
+nitr (nitrates utilisés pendant ECG d'effort : 1 = oui ; 0 = non)
+
+pro (inhibiteur calcique utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
+
+diurétique (diurétique utilisé pendant l'ECG d'effort : 1 = oui ; 0 = non)
+
+proto : protocole d'exercice
 1 = Bruce
 2 = Kottus
 3 = McHenry
@@ -81,69 +101,119 @@ relrest (1 = soulagé après le repos ; 0 = sinon)
 10 = vélo 75 kpa min/min
 11 = vélo 50 kpa min/min
 12 = ergomètre bras
-29 thaldur : durée de l'épreuve d'effort en minutes
-30 thaltime : heure à laquelle Une dépression de la mesure ST a été notée
-31 atteinte : mets atteints
-32 thalach : fréquence cardiaque maximale atteinte
-33 thalrest : fréquence cardiaque au repos
-34 tpeakbps : pic de la pression artérielle à l'effort (première des 2 parties)
-35 tpeakbpd : pic de la pression artérielle à l'effort (deuxième des 2 parties)
-36 mannequin
-37 trestbpd : tension artérielle au repos
-38 exang : angine d'effort (1 = oui ; 0 = non)
-39 xhypo : (1 = oui ; 0 = non)
-40 oldpeak = dépression du segment ST induite par l'exercice par rapport au repos
-41 pente : la pente du segment ST à l'exercice de pointe
+
+thaldur : durée de l'épreuve d'effort en minutes
+
+thaltime : heure à laquelle Une dépression de la mesure ST a été notée
+
+atteinte : mets atteints
+
+thalach : fréquence cardiaque maximale atteinte
+
+thalrest : fréquence cardiaque au repos
+
+tpeakbps : pic de la pression artérielle à l'effort (première des 2 parties)
+
+tpeakbpd : pic de la pression artérielle à l'effort (deuxième des 2 parties)
+
+mannequin
+
+trestbpd : tension artérielle au repos
+
+exang : angine d'effort (1 = oui ; 0 = non)
+
+xhypo : (1 = oui ; 0 = non)
+
+oldpeak = dépression du segment ST induite par l'exercice par rapport au repos
+
+pente : la pente du segment ST à l'exercice de pointe
 -- Valeur 1 : montante
 -- Valeur 2 : plat
 -- Valeur 3 : descente
-42 rldv5 : hauteur au repos
-43 rldv5e : hauteur à l'exercice de pointe
-44 ca : nombre de vaisseaux principaux (0-3) colorés par la fluoroscopie
-45 restckm : non pertinent
-46 exerckm : non pertinent
-47 restef : repos raidonuclid (sp?) fraction d'éjection
-48 restwm : anomalie du mouvement de la paroi du repos (sp?)
+
+rldv5 : hauteur au repos
+
+rldv5e : hauteur à l'exercice de pointe
+
+ca : nombre de vaisseaux principaux (0-3) colorés par la fluoroscopie
+
+restckm : non pertinent
+
+exerckm : non pertinent
+
+restef : repos raidonuclid (sp?) fraction d'éjection
+
+restwm : anomalie du mouvement de la paroi du repos (sp?)
 0 = aucune
 1 = légère ou modérée
 2 = modérée ou sévère
 3 = akinésie ou dyskmem (sp?)
-49 exeref: exercice radinalid (sp?) fraction d'éjection
-50 exerwm: exercice mur (sp?) mouvement
-51 thal: 3 = normal; 6 = défaut corrigé ; 7 = défaut réversible
-52 thalsev : non utilisé
-53 thalpul : non utilisé
-54 lobe de l'oreille : non utilisé
-55 cmo : mois du cathéter cardiaque (sp?) (peut-être "appel")
-56 cday : jour du cathéter cardiaque (sp?)
-57 cyr : année de cathétérisme cardiaque (sp?)
-58 num : diagnostic de maladie cardiaque (statut de la maladie angiographique)
+
+exeref: exercice radinalid (sp?) fraction d'éjection
+
+exerwm: exercice mur (sp?) mouvement
+
+thal: 3 = normal; 6 = défaut corrigé ; 7 = défaut réversible
+
+thalsev : non utilisé
+
+thalpul : non utilisé
+
+lobe de l'oreille : non utilisé
+
+cmo : mois du cathéter cardiaque (sp?) (peut-être "appel")
+
+cday : jour du cathéter cardiaque (sp?)
+
+cyr : année de cathétérisme cardiaque (sp?)
+
+num : diagnostic de maladie cardiaque (statut de la maladie angiographique)
 -- Valeur 0 : rétrécissement de diamètre < 50 %
 -- Valeur 1 : rétrécissement de diamètre > 50 %
 (dans tout vaisseau majeur : attributs 59 à 68 sont des navires)
-59 lmt
-60 ladprox
-61 laddist
-62 diag
-63 cxmain
-64 ramus
-65 om1
-66 om2
-67 rcaprox
-68 rcadist
-69 lvx1 : non utilisé
-70 lvx2 : non utilisé
-71 lvx3 : non utilisé
-72 lvx4 : non utilisé
-73 lvf : non utilisé
-74 cathef : non utilisé
-75 junk : non utilisé
-76 nom : nom de famille du patient (je l'ai remplacé par la chaîne factice "nom")
+
+lmt
+
+ladprox
+
+laddist
+
+diag
+
+cxmain
+
+ramus
+
+om1
+
+om2
+
+rcaprox
+
+rcadist
+
+lvx1 : non utilisé
+
+lvx2 : non utilisé
+
+lvx3 : non utilisé
+
+lvx4 : non utilisé
+
+lvf : non utilisé
+
+cathef : non utilisé
+
+junk : non utilisé
+
+nom : nom de famille du patient (je l'ai remplacé par la chaîne factice "nom")
 
 # Quelques questions
 
 Quelles sont la plupart des raisons pour la possibilité d'une crise cardiaque?
+
 Quels sont les groupes d'âge les plus nombreux pour la crise cardiaque?
+
 Quelles sont les principales causes des crises cardiaques?
 
 L'ensemble de données est pris à des fins d'apprentissage. 
