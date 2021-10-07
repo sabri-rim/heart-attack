@@ -1,7 +1,11 @@
 # heart-attack
 À propos de l'ensemble de données
+Cet ensemble de données sur « Soins de santé : Ensemble de données sur la possibilité d'une crise cardiaque » Publié à l'origine à Kaggle : Heart Disease UCI
 Cette base de données contient 76 attributs, mais toutes les expériences publiées se réfèrent à l'utilisation d'un sous-ensemble de 14 d'entre eux. En particulier, la base de données de Cleveland est la seule qui a été utilisée par les chercheurs en ML à
-ce jour. Le champ « cible » fait référence à la présence d'une maladie cardiaque chez le patient. Il s'agit d'un nombre entier 0 = pas/moins de risque de crise cardiaque et 1 = plus de risque de crise cardiaque
+ce jour.
+Le champ « objectif » fait référence à la présence d'une maladie cardiaque chez le patient. Il s'agit d'un entier dont la valeur va de 0 (aucune présence) à 4. 
+Leq noms et numéros de sécurité sociale des patients ont été récemment supprimés de la base de données, remplacés par des valeurs fictives.
+
 
 Attribut Information
 1) âge
@@ -19,67 +23,7 @@ induit par l'exercice 10) oldpeak = dépression du segment ST induite par l'exer
 13) thal : 0 = normal ; 1 = défaut corrigé ; 2 = défaut réversible
 14) cible : 0= moins de chance de crise cardiaque 1= plus de chance de crise cardiaque
 
-L'ensemble de données est pris à des fins d'apprentissage. Source des données : https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-La source:
-
-Créateurs :
-
-1. Institut hongrois de cardiologie. Budapest : Andras Janosi, MD
-2. Hôpital universitaire, Zurich, Suisse : William Steinbrunn, MD
-3. Hôpital universitaire, Bâle, Suisse : Matthias Pfisterer, MD
-4. VA Medical Center, Long Beach et Cleveland Clinic Foundation : Robert Detrano, MD, doctorat
-
-Donateur :
-
-David W. Aha ( aha '@' ics.uci.edu ) (714) 856-8779
-
-
-Informations sur l'ensemble de données :
-
-Cette base de données contient 76 attributs, mais toutes les expériences publiées se réfèrent à l'utilisation d'un sous-ensemble de 14 d'entre eux. En particulier, la base de données de Cleveland est la seule qui a été utilisée par les chercheurs en ML à
-ce jour. Le champ « objectif » fait référence à la présence d'une maladie cardiaque chez le patient. Il s'agit d'un entier dont la valeur va de 0 (aucune présence) à 4. Les expériences avec la base de données de Cleveland se sont concentrées sur la simple tentative de distinguer la présence (valeurs 1,2,3,4) de l'absence (valeur 0).
-
-Les noms et numéros de sécurité sociale des patients ont été récemment supprimés de la base de données, remplacés par des valeurs fictives.
-
-Un fichier a été "traité", celui contenant la base de données de Cleveland. Les quatre fichiers non traités existent également dans ce répertoire.
-
-Pour voir les coûts des tests (donnés par Peter Turney), veuillez consulter le dossier « Coûts »
-
-
-Informations sur les attributs :
-
-Seulement 14 attributs utilisés :
-1. #3 (âge)
-2. #4 (sexe)
-3. #9 (cp)
-4. #10 (trestbps)
-5. #12 (chol)
-6. #16 (fbs)
-7. # 19 (restecg)
-8. #32 (thalach)
-9. #38 (exang)
-10. #40 (oldpeak)
-11. #41 (pente)
-12. #44 (ca)
-13. #51 (thal)
-14. #58 (num) (l'attribut prédit)
 
 Documentation complète de l'attribut :
 1 id : numéro d'identification du patient
@@ -188,17 +132,32 @@ Documentation complète de l'attribut :
 75 junk : non utilisé
 76 nom : nom de famille du patient (je l'ai remplacé par la chaîne factice "nom")
 
+#Quelques questions
 
-Documents pertinents :
+Quelles sont la plupart des raisons pour la possibilité d'une crise cardiaque?
+Quels sont les groupes d'âge les plus nombreux pour la crise cardiaque?
+Quelles sont les principales causes des crises cardiaques?
 
-Detrano, R., Janosi, A., Steinbrunn, W., Pfisterer, M., Schmid, J., Sandhu, S., Guppy, K., Lee, S., & Froelicher, V. (1989). Application internationale d'un nouvel algorithme de probabilité pour le diagnostic de la maladie coronarienne. Journal américain de cardiologie, 64 304--310.
-[Lien Web]
+L'ensemble de données est pris à des fins d'apprentissage. 
 
-David W. Aha & Dennis Kibler. « Prédiction basée sur les instances de la présence de maladies cardiaques avec la base de données de Cleveland. »
-[Lien Web]
+#Source des données : 
+https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
-Gennari, JH, Langley, P, & Fisher, D. (1989). Modèles de formation incrémentale de concepts. Intelligence artificielle, 40, 11--61.
-[Lien Web]
+
+
+Créateurs :
+
+1. Institut hongrois de cardiologie. Budapest : Andras Janosi, MD
+2. Hôpital universitaire, Zurich, Suisse : William Steinbrunn, MD
+3. Hôpital universitaire, Bâle, Suisse : Matthias Pfisterer, MD
+4. VA Medical Center, Long Beach et Cleveland Clinic Foundation : Robert Detrano, MD, doctorat
+
+Donateur :
+
+David W. Aha ( aha '@' ics.uci.edu ) (714) 856-8779
+
+
+
 
 
 Articles citant cet ensemble de données 1 :
