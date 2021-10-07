@@ -26,13 +26,21 @@ induit par l'exercice 10) oldpeak = dépression du segment ST induite par l'exer
 
 
 Documentation complète de l'attribut :
+
 id : numéro d'identification du patient
+
 ccf : numéro de sécurité sociale (je l'ai remplacé par une valeur fictive de 0)
+
 age : âge en années
-4 sexe : sexe (1 = masculin ; 0 = féminin)
-5 painloc : localisation de la douleur thoracique (1 = sous-sternal ; 0 = autrement)
-6 painexer (1 = provoqué par l'effort ; 0 = autrement)
-7 relrest (1 = soulagé après le repos ; 0 = sinon)
+
+sexe : sexe (1 = masculin ; 0 = féminin)
+
+painloc : localisation de la douleur thoracique (1 = sous-sternal ; 0 = autrement)
+
+painexer (1 = provoqué par l'effort ; 0 = autrement)
+
+relrest (1 = soulagé après le repos ; 0 = sinon)
+
 8 pncaden (somme de 5, 6 et 7)
 9 cp : type de douleur thoracique
 -- Valeur 1 : angine typique
