@@ -216,8 +216,11 @@ Quels sont les groupes d'âge les plus nombreux pour la crise cardiaque?
 
 Quelles sont les principales causes des crises cardiaques?
 
-# Exemple d'application
-# prévenir les crises cardiaques
+# analyse de la base de donnée 
+
+
+
+![image](https://user-images.githubusercontent.com/73078692/136448036-25391de1-b82f-4d00-8836-4adba692c0eb.png)
 
 
 
@@ -234,9 +237,38 @@ https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 4. VA Medical Center, Long Beach et Cleveland Clinic Foundation : Robert Detrano, MD, doctorat
 
 # Donateur :
+Nombre de femmme et d'homme 
 
 David W. Aha ( aha '@' ics.uci.edu ) (714) 856-8779
 
+type de douleur thoracique 
+
+
+
+![image](https://user-images.githubusercontent.com/73078692/136448302-a1880e45-9233-4853-9934-46a2bfef68d3.png)
+
+
+
+
+glycémie à jeun > 120 mg/dl
+
+
+
+![image](https://user-images.githubusercontent.com/73078692/136448390-8d71584c-fd09-4fce-a857-bb1646803cda.png)
+
+
+
+résultats électrocardiographiques au repos (valeurs 0,1,2)
+
+
+
+![image](https://user-images.githubusercontent.com/73078692/136448570-ad088112-b224-410c-a1c1-4d926a5ddebf.png)
+
+
+
+angine de poitrine induite par l'exercice
+
+![image](https://user-images.githubusercontent.com/73078692/136448803-8a934182-32e7-46a3-b9bd-ed9426d7cb2c.png)
 
 
 
