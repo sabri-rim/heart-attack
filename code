@@ -1,0 +1,48 @@
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt
+plt.style.use('seaborn-whitegrid')
+
+from collections import Counter
+
+import warnings
+warnings.filterwarnings('ignore')
+
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+        
+data = pd.read_csv("/kaggle/input/health-care-data-set-on-heart-attack-possibility/heart.csv")
+
+# Let's look at the first 5 rows of the data
+data.head()
+
+# last 5 rows.
+data.tail()
+
+def bar_plot(variable):
+    
+    # get feature
+    var = data[variable]
+    
+    # count number of the cateegorical variable (sample)
+    varValue = var.value_counts()
+    
+    # visualize
+    plt.figure(figsize = (10,10))
+    plt.bar(varValue.index,varValue)
+    plt.xticks(varValue.index,varValue.index.values)
+    plt.ylabel("Frequency")
+    plt.title(variable)
+    plt.show()
+    print("{} : \n {}",variable,varValue)
+    
+    
+categorical_variables = ["sex" ,"cp" , "fbs" , "restecg" , "exang" , "slope" , "ca" , "thal" ,"target"]
+for c in categorical_variables:
+    bar_plot(c)
+    
+    
+ 
