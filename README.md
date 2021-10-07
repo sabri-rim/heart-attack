@@ -218,7 +218,7 @@ Quelles sont les principales causes des crises cardiaques?
 
 # analyse de la base de donnée 
 
-
+Nombre de femme et d'homme 
 
 ![image](https://user-images.githubusercontent.com/73078692/136448036-25391de1-b82f-4d00-8836-4adba692c0eb.png)
 
