@@ -7,7 +7,7 @@ Le champ « objectif » fait référence à la présence d'une maladie cardiaque
 Leq noms et numéros de sécurité sociale des patients ont été récemment supprimés de la base de données, remplacés par des valeurs fictives.
 
 
-Attribut Information
+#Attribut d'intérêt 
 1) âge
 2) sexe
 3) type de douleur thoracique (4 valeurs)
@@ -26,9 +26,9 @@ induit par l'exercice 10) oldpeak = dépression du segment ST induite par l'exer
 
 
 Documentation complète de l'attribut :
-1 id : numéro d'identification du patient
-2 ccf : numéro de sécurité sociale (je l'ai remplacé par une valeur fictive de 0)
-3 age : âge en années
+id : numéro d'identification du patient
+ccf : numéro de sécurité sociale (je l'ai remplacé par une valeur fictive de 0)
+age : âge en années
 4 sexe : sexe (1 = masculin ; 0 = féminin)
 5 painloc : localisation de la douleur thoracique (1 = sous-sternal ; 0 = autrement)
 6 painexer (1 = provoqué par l'effort ; 0 = autrement)
