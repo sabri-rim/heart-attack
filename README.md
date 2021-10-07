@@ -226,21 +226,6 @@ Quelles sont les principales causes des crises cardiaques?
 
 
 
-# Source des données : 
-https://archive.ics.uci.edu/ml/datasets/Heart+Disease
-
-# Créateurs :
-
-1. Institut hongrois de cardiologie. Budapest : Andras Janosi, MD
-2. Hôpital universitaire, Zurich, Suisse : William Steinbrunn, MD
-3. Hôpital universitaire, Bâle, Suisse : Matthias Pfisterer, MD
-4. VA Medical Center, Long Beach et Cleveland Clinic Foundation : Robert Detrano, MD, doctorat
-
-# Donateur :
-Nombre de femmme et d'homme 
-
-David W. Aha ( aha '@' ics.uci.edu ) (714) 856-8779
-
 type de douleur thoracique 
 
 
@@ -286,6 +271,30 @@ Kaizhu Huang et Haiqin Yang et Irwin King et Michael R. Lyu et Laiwan Chan. Mach
 Jeroen Eggermont et Joost N. Kok et Walter A. Kosters. Programmation génétique pour la classification des données : partitionnement de l'espace de recherche . SAC. 2004.
 
 Zhi-Hua Zhou et Yuan Jiang. NeC4.5 : basé sur un ensemble de neurones C4.5 . IEEE Trans. Savoir. Data Eng, 16. 2004.
+
+
+
+
+
+
+
+# Source des données : 
+https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+# Créateurs :
+
+1. Institut hongrois de cardiologie. Budapest : Andras Janosi, MD
+2. Hôpital universitaire, Zurich, Suisse : William Steinbrunn, MD
+3. Hôpital universitaire, Bâle, Suisse : Matthias Pfisterer, MD
+4. VA Medical Center, Long Beach et Cleveland Clinic Foundation : Robert Detrano, MD, doctorat
+
+# Donateur :
+Nombre de femmme et d'homme 
+
+David W. Aha ( aha '@' ics.uci.edu ) (714) 856-8779
+
+
+
 
 
 # Demande de citation :
